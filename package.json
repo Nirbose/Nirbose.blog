@@ -1,0 +1,22 @@
+{
+  "name": "Nirbose.blog",
+  "version": "1.0.0",
+  "description": "Code source du bog du Nirbose.fr",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirbose/Nirbose.blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirbose/Nirbose.blog/issues"
+  },
+  "homepage": "https://github.com/Nirbose/Nirbose.blog#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
