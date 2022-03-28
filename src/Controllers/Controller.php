@@ -11,13 +11,15 @@ class Controller
 
     public function __construct()
     {
-        $this->request = new Client();
+        $this->request = new Client([
+            'base_uri' => $_SERVER['HTTP_HOST'],
+        ]);
     }
 
-    public function JsonWrite(array $data)
+    public function json(array $data, ?int $code = 200)
     {
-        header('Content-Type: application/json');
-        return json_encode($data);
+        header('Content-Type: application/json', true, $code);
+        echo json_encode($data);
     }
     
 }

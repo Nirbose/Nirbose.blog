@@ -6,4 +6,4 @@
 
 use Router\Router;
 
-Router::get('/posts', 'Blog\Controllers\PostsController@all');
+Router::get('/posts', 'Blog\Controllers\Api\PostsController@all');
